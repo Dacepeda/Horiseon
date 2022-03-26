@@ -86,55 +86,56 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Applying the D.R.Y, trimming excess code */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+/* .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff; */
 }
 
-.benefit-lead h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/* .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-lead img {
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* 
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+.benefit img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 150px; 
 }
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+*/
+.bulletp {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -142,7 +143,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* 
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -159,25 +160,25 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
+.bulletp img {
+    max-height: 200px;
+}
+/* 
+.meow img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+.meow img {
     max-height: 200px;
-}
+} */
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.bulletp h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -186,8 +187,9 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+}  D.R.Y ENDS*/
 
+/* FOOTER */
 .footer {
     padding: 30px;
     clear: both;
